@@ -1,0 +1,242 @@
+body{
+    overflow-x: hidden;
+}
+.thin-bar {
+    
+        border-bottom: 5px solid #F33F12;
+}
+.title-bar{
+    height: 190px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+   
+}
+img{
+    
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    
+    
+    
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 225px;
+    background-color: white;
+    border-radius: 50%;
+    height: 225px;
+    border: 1px solid red;
+    transform: translate(0 ,50%);
+}
+
+.details{
+    margin: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.details2{
+    margin: -140px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    font-weight: bold;
+    font-size: x-large;
+    
+}
+.btnn{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    
+}
+.bt{
+    border-radius: 20px;
+    color: #cc4b37;
+    text-transform: uppercase;
+    border: 2px solid rgba(255, 103, 68, 0.91);
+    border-radius: 50px;
+    background: white;
+    padding: 10px;
+    font-size: 1em;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out, color 0.2s 0.3s;
+    letter-spacing: 0;
+    border-radius: 45px;
+    height: auto;
+    padding: .8em 2.1em;
+}
+.bt:hover{
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 14px 1px rgb(0 0 0 / 15%);
+    background-color: rgba(255, 103, 68, 0.91);
+    color: white;
+   
+}
+.icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+}
+h2{
+    font-size: calc(1.325rem + .9vw);
+    color: #646464;
+    font-size: 3.8em;
+    padding-bottom: 1em;
+}
+#ic{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: rgb(78, 78, 78);
+    font-size: larger;
+}
+.card{
+    text-align: center;
+    /* text-decoration: none; */
+    height: 250px;
+    background-color: #4c6d86 !important;
+    border: none !important;
+    margin: 20px;;
+   
+}
+ul{
+    list-style: none;
+   
+}
+ul li{
+   line-height: 2;
+}
+.row{
+    margin: 10px;
+}
+.section{
+    background-color: #4c6d86;
+        /* margin: -20px; */
+    margin-top: 20px;
+    padding-top: 20px;
+    padding: 6em 4em 5.6em;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.hh{
+    font-size: 4em;
+    margin:  10px auto;
+    color: rgb(255, 138, 89);;
+    
+    
+}
+h1,h3{
+    color: #fff;
+}
+h1,h3{
+    font-size: xx-large;
+}
+li{
+    
+
+    color: #bbd2ff;
+
+}
+a:link{
+    text-decoration: none;
+   
+}
+.special{
+    color: white;
+}
+span{
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 65, 43);
+}
+.work{
+    height: 600px;
+    background-color: #e3e3e3;
+    position: relative;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-top: 70px;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+
+}
+.main >h1{
+    color: black;
+    font-family: "Lato", sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 2.5rem;
+}
+.workWithMe{
+    background-color: rgba(255, 103, 68, 0.91);
+    /* padding: 6em 4em 5.6em; */
+    margin-left: -12px;
+    margin-right: -12px;
+    height: 350px;
+}
+
+
+#bt2{
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid  white ;
+    border-radius: 50px;
+    background: rgba(255, 103, 68, 0.91);
+    padding: 10px;
+    font-size: 1em;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out, color 0.2s 0.3s;
+    letter-spacing: 0;
+    border-radius: 45px;
+    height: auto;
+    padding: .8em 2.1em;
+    margin-top: -130px;
+}
+#bt2:hover{
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 14px 1px rgb(0 0 0 / 15%);
+    background-color: white;
+    color: rgba(255, 103, 68, 0.91);
+   
+}
+.wanna{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.im{
+    color: white;
+    margin-bottom: -50px;
+}
+footer{
+    height: 250px;
+    background-color: #e3e3e3;
+    position: relative;
+    margin-left: -12px;
+    margin-right: -12px;
+    padding-top: 70px;
+}
+
